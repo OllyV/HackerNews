@@ -46,7 +46,8 @@ $RECYCLE.BIN/
 *.dll
 *.exe
 *.pdb
-HackerNews/obj/
-HackerNews/bin/
-HackerNewsTests/obj/
-HackerNewsTests/bin/
+HackerNews/obj
+HackerNews/bin
+HackerNewsTests/obj
+HackerNewsTests/bin
+
