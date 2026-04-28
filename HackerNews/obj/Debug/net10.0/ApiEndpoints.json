@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "Hacker_News.Controllers.HackerNewsController",
+    "Method": "Get",
+    "RelativePath": "api/HackerNews/{storyId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "storyId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hacker_News.Controllers.HackerNewsController",
+    "Method": "GetBestStoriesIds",
+    "RelativePath": "api/HackerNews/best",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hacker_News.Controllers.HackerNewsController",
+    "Method": "GetBestStories",
+    "RelativePath": "api/HackerNews/best/{count}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "count",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
