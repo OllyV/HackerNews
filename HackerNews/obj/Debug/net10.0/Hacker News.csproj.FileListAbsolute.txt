@@ -1,0 +1,44 @@
+C:\Users\voa77\source\repos\Hacker News\Hacker News\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\voa77\source\repos\Hacker News\Hacker News\bin\Debug\net10.0\appsettings.json
+C:\Users\voa77\source\repos\Hacker News\Hacker News\bin\Debug\net10.0\Hacker News.staticwebassets.endpoints.json
+C:\Users\voa77\source\repos\Hacker News\Hacker News\bin\Debug\net10.0\Hacker News.exe
+C:\Users\voa77\source\repos\Hacker News\Hacker News\bin\Debug\net10.0\Hacker News.deps.json
+C:\Users\voa77\source\repos\Hacker News\Hacker News\bin\Debug\net10.0\Hacker News.runtimeconfig.json
+C:\Users\voa77\source\repos\Hacker News\Hacker News\bin\Debug\net10.0\Hacker News.dll
+C:\Users\voa77\source\repos\Hacker News\Hacker News\bin\Debug\net10.0\Hacker News.pdb
+C:\Users\voa77\source\repos\Hacker News\Hacker News\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\voa77\source\repos\Hacker News\Hacker News\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Users\voa77\source\repos\Hacker News\Hacker News\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\voa77\source\repos\Hacker News\Hacker News\obj\Debug\net10.0\Hacker News.csproj.AssemblyReference.cache
+C:\Users\voa77\source\repos\Hacker News\Hacker News\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\voa77\source\repos\Hacker News\Hacker News\obj\Debug\net10.0\Hacker News.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\voa77\source\repos\Hacker News\Hacker News\obj\Debug\net10.0\Hacker News.AssemblyInfoInputs.cache
+C:\Users\voa77\source\repos\Hacker News\Hacker News\obj\Debug\net10.0\Hacker News.AssemblyInfo.cs
+C:\Users\voa77\source\repos\Hacker News\Hacker News\obj\Debug\net10.0\Hacker News.csproj.CoreCompileInputs.cache
+C:\Users\voa77\source\repos\Hacker News\Hacker News\obj\Debug\net10.0\Hacker News.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\voa77\source\repos\Hacker News\Hacker News\obj\Debug\net10.0\Hacker News.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\voa77\source\repos\Hacker News\Hacker News\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\voa77\source\repos\Hacker News\Hacker News\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\voa77\source\repos\Hacker News\Hacker News\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\voa77\source\repos\Hacker News\Hacker News\obj\Debug\net10.0\scopedcss\bundle\Hacker News.styles.css
+C:\Users\voa77\source\repos\Hacker News\Hacker News\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\voa77\source\repos\Hacker News\Hacker News\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\voa77\source\repos\Hacker News\Hacker News\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\voa77\source\repos\Hacker News\Hacker News\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\voa77\source\repos\Hacker News\Hacker News\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\voa77\source\repos\Hacker News\Hacker News\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\voa77\source\repos\Hacker News\Hacker News\obj\Debug\net10.0\Hacker N.6CEB4D67.Up2Date
+C:\Users\voa77\source\repos\Hacker News\Hacker News\obj\Debug\net10.0\Hacker News.dll
+C:\Users\voa77\source\repos\Hacker News\Hacker News\obj\Debug\net10.0\refint\Hacker News.dll
+C:\Users\voa77\source\repos\Hacker News\Hacker News\obj\Debug\net10.0\Hacker News.pdb
+C:\Users\voa77\source\repos\Hacker News\Hacker News\obj\Debug\net10.0\Hacker News.genruntimeconfig.cache
+C:\Users\voa77\source\repos\Hacker News\Hacker News\obj\Debug\net10.0\ref\Hacker News.dll
+C:\Users\voa77\source\repos\Hacker News\Hacker News\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\voa77\source\repos\Hacker News\Hacker News\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\voa77\source\repos\Hacker News\Hacker News\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\voa77\source\repos\Hacker News\Hacker News\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\voa77\source\repos\Hacker News\Hacker News\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\voa77\source\repos\Hacker News\Hacker News\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\voa77\source\repos\Hacker News\Hacker News\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\voa77\source\repos\Hacker News\Hacker News\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\voa77\source\repos\Hacker News\Hacker News\bin\Debug\net10.0\AutoMapper.dll
