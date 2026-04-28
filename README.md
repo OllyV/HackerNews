@@ -24,4 +24,4 @@ JMeter load testing on my laptop shows that request to get top 200 stories first
 Next requests use cached data:
  - 50 requests in 3 seconds showed response times mainly around 200-300ms not more than 500ms.
  - 500 requests in 3 seconds showed response times mainly around 2000ms not more than 5000ms.
-Screenshots from JMeter can be found in repo.
+ - Screenshots from JMeter can be found in repo.
