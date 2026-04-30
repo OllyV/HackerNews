@@ -21,9 +21,11 @@ Strategies used to handle high load:
 5. Semaphore is used to limit the number of concurrent requests to hacker-news.
 6. Api is accepting CancellationToken to be able to stop the process, freeing memory and resources.
 
-JMeter load testing on my laptop shows that request to get top 200 stories first time may take up to 10 second.
+JMeter load testing on my laptop shows that first request to get top 200 stories may take up to 10-17 seconds.
 Next requests use cached data:
-50 requests in 3 seconds showed response times mainly around 200-300ms not more than 500ms.
-500 requests in 3 seconds showed response times mainly around 2000ms not more than 5000ms.
-After adding output cache 500 requests in 3 seconds showed response times not more than 3000ms.
+
+- 50 requests in 3 seconds showed response times mainly around 200-300ms not more than 500ms.
+- 500 requests in 3 seconds showed response times mainly around 2000ms not more than 5000ms.
+- After adding output cache 500 requests in 3 seconds showed response times not more than 3000ms.
+
 Screenshots from JMeter can be found in repo.
