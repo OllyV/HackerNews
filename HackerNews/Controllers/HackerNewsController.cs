@@ -2,6 +2,7 @@
 using Hacker_News.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.OutputCaching;
 
 namespace Hacker_News.Controllers
 {
@@ -62,6 +63,7 @@ namespace Hacker_News.Controllers
         }
 
         [HttpGet("best/{count:int}")]
+        [OutputCache(Duration = 30)]
         public async Task<IActionResult> GetBestStories(int count, CancellationToken ct = default)
         {
             try
