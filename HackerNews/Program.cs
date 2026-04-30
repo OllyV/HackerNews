@@ -47,6 +47,11 @@ builder.Services.AddOpenApi();
 builder.Services.AddAuthorization();
 builder.Services.AddAutoMapper(cfg => { }, typeof(StoryProfile));
 
+builder.Services.AddOutputCache(options =>
+{
+    options.AddBasePolicy(basePolicy => basePolicy.Expire(TimeSpan.FromSeconds(120)));
+});
+
 var app = builder.Build();
 app.UseHttpLogging();
 
@@ -63,6 +68,7 @@ app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
+app.UseOutputCache();
 app.Run();
 
 
