@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.OutputCaching;
 
 namespace Hacker_News.Controllers
 {
-    
+
     [ApiController]
     [Route("api/[controller]")]
     [Produces("application/json")]
@@ -25,25 +25,19 @@ namespace Hacker_News.Controllers
         [HttpGet("{storyId:int}")]
         public async Task<IActionResult> Get(int storyId)
         {
-            try 
+            if (storyId <= 0)
             {
-                if (storyId <= 0)
-                {
-                    return BadRequest("Story ID must be greater than 0.");
-                }
-    
-                var result = await _service.GetStoryAsync(storyId);
-                if (result == null)
-                {
-                    _logger.LogWarning("No content returned.");
-                    return NoContent();
-                }
-
-                return HandleResult(result);
-            
-            } catch (Exception ex) {
-                return HandleException(ex);
+                return BadRequest("Story ID must be greater than 0.");
             }
+
+            var result = await _service.GetStoryAsync(storyId);
+            if (result == null)
+            {
+                _logger.LogWarning("No content returned.");
+                return NoContent();
+            }
+
+            return HandleResult(result);
         }
 
 
@@ -51,33 +45,19 @@ namespace Hacker_News.Controllers
         [ResponseCache(Duration = 300, VaryByHeader = "Accept")]
         public async Task<IActionResult> GetBestStoriesIds(CancellationToken ct = default)
         {
-            try
-            {
-                var result = await _service.GetBestStoriesIdsAsync();
-                return HandleResult(result);
-            }
-            catch (Exception ex)
-            {
-                return HandleException(ex);
-            }
+            var result = await _service.GetBestStoriesIdsAsync();
+            return HandleResult(result);
         }
 
         [HttpGet("best/{count:int}")]
         [OutputCache(Duration = 30)]
         public async Task<IActionResult> GetBestStories(int count, CancellationToken ct = default)
         {
-            try
-            {
-                if (count <= 0 || count > 200)
-                    return BadRequest("Count must be between 1 and 200.");
+            if (count <= 0 || count > 200)
+                return BadRequest("Count must be between 1 and 200.");
 
-                var result = await _service.GetBestStoriesAsync(count, ct);
-                return HandleResult(result);
-            }
-            catch (Exception ex)
-            {
-                return HandleException(ex);
-            }
+            var result = await _service.GetBestStoriesAsync(count, ct);
+            return HandleResult(result);
         }
 
         private IActionResult HandleResult<T>(T? result)
@@ -88,13 +68,6 @@ namespace Hacker_News.Controllers
                 return NoContent();
             }
             return Ok(result);
-        }
-
-        private IActionResult HandleException(Exception ex)
-        {
-            _logger.LogError(ex, "An error occurred while processing the request.");
-            return StatusCode(StatusCodes.Status500InternalServerError, 
-                $"An error occurred while processing the request. {ex.Message}");
         }
     }
 }

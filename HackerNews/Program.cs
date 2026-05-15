@@ -1,4 +1,5 @@
 using Hacker_News.ApiClients;
+using Hacker_News.Controllers;
 using Hacker_News.Helpers;
 using Hacker_News.Interfaces;
 using Hacker_News.Services;
@@ -17,6 +18,9 @@ builder.Configuration
 builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
 builder.Logging.AddDebug();
+builder.Services.AddProblemDetails();
+builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
+
 builder.Services.AddHttpLogging(httpLoggingOptions =>
 {
     httpLoggingOptions.LoggingFields =
@@ -64,6 +68,7 @@ if (app.Environment.IsDevelopment())
     });
 }
 
+app.UseExceptionHandler();
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
